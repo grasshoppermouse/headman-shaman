@@ -17,8 +17,9 @@ author:
     orcid: 0000-0001-6968-8235
     affiliation: Independent Researcher
 format: html
+embed-resources: true
 toc: true
-toc-expand: 2
+toc-location: left
 number-sections: true
 abstract: |
   Computer engineers face a dilemma. They must build systems with sufficient resources to solve the most complex problems the systems are expected to solve, but the systems will only need to solve such problems intermittently, resulting in inefficient use of expensive computational resources. This dilemma is commonly resolved with timesharing, networking, multitasking, and other technologies that enable computational resources to be shared with multiple users. The human brain, which evolved to acquire, store, and process information to make beneficial decisions, is likewise energetically expensive to build and maintain yet plausibly has idle capacity much of the time. We propose that humans evolved to use advantages in information or computational resources to provide computational services to others via a language-based "network" in exchange for payments of various sorts that helped subsidize the energetic costs of the brain. Specifically, we argue that with the Pleistocene transition of *Homo* to a niche in open habitats with a more meat-based diet, four major selection pressures for knowledge specialists began to act on the human lineage: (1) the need to resolve conflicts and maintain cooperation in larger multilevel societies, which lead to the rise of knowledge-based leaders as decision-making and conflict resolution specialists who were "paid" with increased mating success or resources; (2) the need for greater defense against zoonotic pathogens, which lead to the rise of shamans as medical knowledge specialists, who were "paid" with increased mating success or resources; (3) the greater complexity of mothering with shorter interbirth intervals and longer periods of juvenile dependency, which led to mothers as both decision-making and medical specialists, who were "paid" with increased inclusive fitness; and (4) the need to make more efficient use of an increasingly large and energetically expensive brain.

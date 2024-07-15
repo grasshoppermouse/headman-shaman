@@ -21,6 +21,7 @@ embed-resources: true
 toc: true
 toc-location: left
 number-sections: true
+lightbox: true
 abstract: |
   Computer engineers face a dilemma. They must build systems with sufficient resources to solve the most complex problems the systems are expected to solve, but the systems will only need to solve such problems intermittently, resulting in inefficient use of expensive computational resources. This dilemma is commonly resolved with timesharing, networking, multitasking, and other technologies that enable computational resources to be shared with multiple users. The human brain, which evolved to acquire, store, and process information to make beneficial decisions, is likewise energetically expensive to build and maintain yet plausibly has idle capacity much of the time. We propose that humans evolved to use advantages in information or computational resources to provide computational services to others via a language-based "network" in exchange for payments of various sorts that helped subsidize the energetic costs of the brain. Specifically, we argue that with the Pleistocene transition of *Homo* to a niche in open habitats with a more meat-based diet, four major selection pressures for knowledge specialists began to act on the human lineage: (1) the need to resolve conflicts and maintain cooperation in larger multilevel societies, which lead to the rise of knowledge-based leaders as decision-making and conflict resolution specialists who were "paid" with increased mating success or resources; (2) the need for greater defense against zoonotic pathogens, which lead to the rise of shamans as medical knowledge specialists, who were "paid" with increased mating success or resources; (3) the greater complexity of mothering with shorter interbirth intervals and longer periods of juvenile dependency, which led to mothers as both decision-making and medical specialists, who were "paid" with increased inclusive fitness; and (4) the need to make more efficient use of an increasingly large and energetically expensive brain.
 execute:
@@ -91,7 +92,7 @@ Plio-Pleistocene East African herbivore communities included numerous megaherbiv
 
 :::{#fig-carnivores}
 
-![](Figures/plot_carnivores.svg)
+![](Figures/plot_carnivores.png)
 
 **A**: African carnivore species (extinct and extant) that overlapped with *Homo* and other hominins, by body size, habitat, pack hunting, and epoch. Body size ratio is the ratio of the mass of the carnivore relative to that of *Homo erectus* (46 kg), displayed log-scaled. The gray rectangle indicates the range of body sizes of hominins relative to *H. erectus*. Data from @treves2007. **B**: Extant carnivore maximum sprint speeds, relative to the maximum modern human sprint speed (45 km/hr), by hunting strategy. *Acinonyx jubatus*: Cheetah; *Canis aureus*: Golden jackal; *Canis latrans*: Coyote; *Canis lupus*: Wolf; *Crocuta crocuta*: Spotted hyena; *Homo sapiens*: Human; *Leopardus pardalis*: Ocelot; *Lycaon pictus*: African wild dog; *Lynx canadensis*: Canada lynx; *Panthera leo*: Lion; *Panthera pardus*: Leopard; *Panthera tigris*: Tiger; *Puma concolor*: Cougar; *Urocyon cinereoargenteus*: Gray fox; *Vulpes vulpes*: Red fox. Data from @hirt2020. Figures and captions from @hagen2022.
 :::
@@ -153,7 +154,7 @@ The word shaman comes from the Tungus language group, spoken by, among others, t
 The Christian Europeans who first encountered and reported on Evenki shamans in the 17th century (e.g., @fig-shaman), observing them jump, dance, throw themselves on the ground, and call "demons" to divine the future [e.g., @petrovich1672], construed them to be specialists in the shamanism faith, a religious framing that continues to dominate academic studies of shamanism [e.g., @dubois2009; @eliade1964; @lewis2002; @winkelman2021a]. These early encounters were followed by centuries of suppression and persecution of shamans by Christian (and later, Soviet) officials [@Vitebsky_2015; @harvey2007].
 
 ::: {#fig-shaman}
-![](Figures/Witsen.large.png)
+![](Figures/Witsen.small.png)
 
 "Een schaman ofte Duyvel-priester in't Tungoesen lant" (A Shaman or Devil Priest in Tungoesen land), from *Noord En Oost Tartarye* [@witsen2024]. Witsen was the mayor of Amsterdam and an amateur scholar. His book described what was known about remote areas of Inner Eurasia and the nomadic peoples who lived there. This engraving is the earliest known depiction of a Siberian shaman.
 :::
@@ -171,7 +172,7 @@ Many psychoactive drugs used by Amazonian plant doctors have antiparasitic and a
 Europeans observed South American shamans curing patients with tobacco as early as the 16th century [@wilbert1987]. Tobacco shamans, themselves initiated into the profession with copious doses of tobacco, treated their patients by applying tobacco poulstices, powders, wet leaves, spit, and smoke directly to the skin, which readily absorbs nicotine [@wilbert1987]. See @fig-smoke. Given the efficacy of nicotine and other tobacco compounds against various endo- and ectoparasites [@Iqbal2006; @Schorderet_Weber_2019; @Pavela_2016; @roulette2014], these treatments undoubtedly provided genuine benefits in some cases.
 
 ::: {#fig-smoke}
-![](Figures/tupinamba.2.2.png)
+![](Figures/tupinamba.small.png)
 
 Brazilian Tupinambá curing by blowing tobacco smoke. André Thevet, La cosmographie vniuerselle, 1575.
 :::
@@ -225,7 +226,7 @@ Herbert Simon recognized early on that optimal decision-making was sharply bound
 With the transition to a more carnivorous dietary niche in more open habitats, human fitness increasingly depended on close cooperation in larger groups; and groups, like individuals, must make decisions. Group decision-making differs from individual decision-making, however, because although group members benefit by belonging to a group, they pay a *consensus cost* when the group decision differs from their optimal outcome, as it often will when there are conflicts of interest. High consensus costs for some, in turn, can precipitate group fissioning [@Conradt_2007; @Davis_2022], which, compared to resolving conflicts and maintaining cooperation, reduces the fitness of all. Based on patterns in contemporary foragers, human groups comprised a complex mix of biological kin, affinal kin, and unrelated individuals (@fig-bandcomposition), likely as a consequence of sexual egalitarianism and strong pair bonds [@dyble_sex_2015]. Group members therefore had many inherent conflicts of interest that could jeopardize cooperation.
 
 ::: {#fig-bandcomposition}
-![](Figures/campcomposition.svg)
+![](Figures/campcomposition.png)
 
 Co-residence patterns across modeled and observed egalitarian populations. Chart area represents the proportion of all dyads across nine categories of relatedness for the egalitarian model (left), Agta (middle left), Mbendjele (middle right), Ache (bottom right), and Ju/’hoansi (top right). Ache and Ju/’hoansi data redrawn from @hill_coresidence_2011. Figure and caption from @dyble_sex_2015.
 <!-- Mean band composition from adult ego's point of view for 58 Ache bands and 6 Ju/'hoansi bands. The category "distant affines" includes spouses of distant kin, distant kin of spouse, and affines of affines. The category "No relation" includes all adult dyads that cannot be connected in five or fewer total steps of kinship and marriage with no more than two marriage links in the chain of connection. The shaded region shows all band members genetically related to ego. Figure and caption from @hill_coresidence_2011. -->
@@ -236,7 +237,7 @@ In all human communities, this complex mix of individuals is organized into mult
 There are conflicts of interest at each level of the nested hierarchy, including within-family sibling competition over parental investment, parent-offspring conflict, and spousal conflict over levels of parental investment; within-group competition over resources and access to mates; and between-group competition over territory, game, and possibly mates [@chagnon_life_1988; @parker_intrafamilial_2002; @codding2019; @moritz2020]. See @fig-parent_offspring_conflict.
 
 ::: {#fig-parent_offspring_conflict}
-![](parent_offspring_conflict_big.svg)
+![](Figures/band.png)
 
 Typical hunter-gatherer bands. There are intra- and inter-familial conflicts over parental investment, mates, and resources. Siblings compete over the investment from parents (sib competition). Offspring have different interests from their parent(s) over investment (parent--offspring conflict). Where both parents invest, they are in conflict over the amount each should give (sexual conflict). Members of different families cooperate within bands, but nevertheless compete over resources, and adult members compete over access to mates. Bands cooperate and compete over territory and game. Figure and caption modified from @parker_intrafamilial_2002.
 :::
